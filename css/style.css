@@ -10136,3 +10136,18 @@ h6,
     border-right: none !important;
   }
 }
+.more-info-content {
+    display: none; /* Esto asegura que el contenido está oculto inicialmente */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Color primario para el botón, ajustable a tu esquema de colores */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Oscurece el botón al pasar el ratón por encima */
+}
